@@ -38,7 +38,10 @@ color: #fff;
     display: inline-block; /* Строчно-блочный элемент */
    }
    .photo img {
-    border: 2px solid #8b8e4b; /* Параметры рамки */
+    /*border: 2px solid #8b8e4b;  Параметры рамки */
+	border-radius: 75px; /* Радиус скругления */
+	border: 2px solid #6200f5; /* Параметры рамки */
+	box-shadow: 0 0 35px #0025f5;
    }
    .photo p {
     margin: 0; /* Отступы */
