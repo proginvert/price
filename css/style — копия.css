@@ -1,0 +1,48 @@
+/*html, body {
+  margin: 0;
+  height: 100%;
+}*/
+body{
+	margin: 0;
+font-family: Arial;
+background: black;
+
+}
+.background{
+width: 100%;
+
+margin: 0 auto;
+height: 100vh;
+background: url("../img/background.png") center no-repeat;
+/*background-attachment: fixed;*/
+-webkit-background-size: cover;
+background-size: cover;
+text-align: center; 
+}
+.logo{
+font-family: Arial;
+font-size:5vw;
+text-align: center;
+padding: 30;
+text-shadow: 1px 1px 2px red, 0 0 1em #fff1a8, 0 0 0.2em #fff1a8;
+color: #fff;
+}
+.photo {
+    background: rgba(217, 218, 187, 0.4); /* Цвет фона */
+    width: 500px; /* Ширина */
+    margin: 0 10px 10px 0; /* Отступы */
+    padding: 10px 0; /* Поля сверху и снизу */
+    text-align: left; /* Выравнивание по центру */
+    display: inline-block; /* Строчно-блочный элемент */
+   }
+   .photo img {
+    border: 2px solid #8b8e4b; /* Параметры рамки */
+   }
+   .photo p {
+    margin: 0; /* Отступы */
+   }
+   IMG.fig {
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+   }
